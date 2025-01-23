@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "adamantine_ingot",
+  "key": {
+    "#": {
+      "item": "dndcraft:adamantine_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "dndcraft:adamantine_ingot"
+  }
+}

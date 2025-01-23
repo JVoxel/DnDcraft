@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "gm3w.dndcraft.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "HoeItemMixin",
+    "TiersMixin",
+    "TierSortingRegistryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "dndcraft.mixin-refmap.json"
+}

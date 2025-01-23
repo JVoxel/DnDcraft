@@ -1,0 +1,36 @@
+package gm3w.dndcraft.registration;
+
+import gm3w.dndcraft.DnDcraft;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.Tiers;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraftforge.common.ForgeTier;
+import net.minecraftforge.common.TierSortingRegistry;
+
+import java.util.List;
+
+public class ModTiers {
+
+    public static final Tier COPPER = TierSortingRegistry.registerTier(
+            new ForgeTier(2, 250, 3.0F, 1.0F, 10, ModTags.Blocks.NEEDS_COPPER_TOOL, () -> Ingredient.of(Items.COPPER_INGOT)),
+            new ResourceLocation(DnDcraft.MOD_ID, "copper"),
+            List.of(Tiers.STONE),
+            List.of(Tiers.IRON)
+    );
+
+    public static final Tier TITANIUM = TierSortingRegistry.registerTier(
+            new ForgeTier(4, 890, 5.0F, 3.0F, 8, ModTags.Blocks.NEEDS_TITANIUM_TOOL, () ->  Ingredient.of(ModItems.TITANIUM_INGOT.get())),
+            new ResourceLocation(DnDcraft.MOD_ID, "titanium"),
+            List.of(Tiers.IRON),
+            List.of(Tiers.DIAMOND)
+    );
+
+    public static final Tier ADAMANTINE = TierSortingRegistry.registerTier(
+            new ForgeTier(7, 3047, 10.0F, 8.0F, 18, ModTags.Blocks.NEEDS_ADAMANTINE_TOOL, () -> Ingredient.of(ModItems.ADAMANTINE_INGOT.get())),
+            new ResourceLocation(DnDcraft.MOD_ID, "adamantine"),
+            List.of(Tiers.IRON),
+            List.of(Tiers.DIAMOND)
+    );
+}

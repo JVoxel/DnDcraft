@@ -1,0 +1,82 @@
+package gm3w.dndcraft.registration;
+
+import net.minecraft.tags.ItemTags;
+import net.minecraft.util.LazyLoadedValue;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.Tiers;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraftforge.common.ForgeTier;
+import net.minecraftforge.common.TierSortingRegistry;
+
+import java.util.function.Supplier;
+
+public enum ModToolTiers implements Tier {
+    WOOD(0, 59, 1.0F, -1.0F, 15, () -> {
+        return Ingredient.of(ItemTags.PLANKS);
+    }),
+    STONE(1, 131, 2.0F, 0.0F, 5, () -> {
+        return Ingredient.of(ItemTags.STONE_TOOL_MATERIALS);
+    }),
+    COPPER(2, 250, 3.0F, 1.0F, 10, () -> {
+        return Ingredient.of(Items.COPPER_INGOT);
+    }),
+    IRON(3, 505, 4.0F, 2.0F, 14, () -> {
+        return Ingredient.of(Items.IRON_INGOT);
+    }),
+    TITANIUM(4, 890, 5.0F, 3.0F, 0, () -> {
+        return Ingredient.of(ModItems.TITANIUM_INGOT.get());
+    }),
+    DIAMOND(5, 1561, 6.0F, 4.0F, 10, () -> {
+        return Ingredient.of(Items.DIAMOND);
+    }),
+    GOLD(0, 32, 12.0F, 0.0F, 22, () -> {
+        return Ingredient.of(Items.GOLD_INGOT);
+    }),
+    NETHERITE(6, 2031, 8.0F, 6.0F, 15, () -> {
+        return Ingredient.of(Items.NETHERITE_INGOT);
+    }),
+    ADAMANT(7, 3047, 10.0F, 8.0F, 18, () -> {
+        return Ingredient.of(ModItems.ADAMANTINE_INGOT);
+    });
+
+    private final int level;
+    private final int uses;
+    private final float speed;
+    private final float damage;
+    private final int enchantmentValue;
+    private final LazyLoadedValue<Ingredient> repairIngredient;
+
+    private ModToolTiers(int pLevel, int pUses, float pSpeed, float pDamage, int pEnchantmentValue, Supplier<Ingredient> pRepairIngredient) {
+        this.level = pLevel;
+        this.uses = pUses;
+        this.speed = pSpeed;
+        this.damage = pDamage;
+        this.enchantmentValue = pEnchantmentValue;
+        this.repairIngredient = new LazyLoadedValue<>(pRepairIngredient);
+    }
+
+    public int getUses() {
+        return this.uses;
+    }
+
+    public float getSpeed() {
+        return this.speed;
+    }
+
+    public float getAttackDamageBonus() {
+        return this.damage;
+    }
+
+    public int getLevel() {
+        return this.level;
+    }
+
+    public int getEnchantmentValue() {
+        return this.enchantmentValue;
+    }
+
+    public Ingredient getRepairIngredient() {
+        return this.repairIngredient.get();
+    }
+}

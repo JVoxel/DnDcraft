@@ -1,0 +1,11 @@
+// 1.19.2	2025-01-16T15:52:31.8877203	LootTables
+86ad106cbef9b87df04141f5ebcb8c86728acac9 data/dndcraft/loot_tables/blocks/adamantine_block.json
+c96c52860c07b4915724246a2f3f4a44ad4f0330 data/dndcraft/loot_tables/blocks/adamant_ore.json
+e6b7f317e70649f7dca9ac9099f9e537973f321b data/dndcraft/loot_tables/blocks/deepslate_silver_ore.json
+e22370652da3ca9c5770a792e1813ffc3b81b4ca data/dndcraft/loot_tables/blocks/deepslate_titanium_ore.json
+6a10dd231d1df1f2c713171171ea41375d46c5a4 data/dndcraft/loot_tables/blocks/mithril_block.json
+1e381a76d6f7e4aed9fef289367642e7c1f35243 data/dndcraft/loot_tables/blocks/mithril_ore.json
+a44a65c3d941382450a76dfa4c94c5a84c0f8cc1 data/dndcraft/loot_tables/blocks/silver_block.json
+0a9b943a49483dde8bf05780847962ab6a0d6e3c data/dndcraft/loot_tables/blocks/silver_ore.json
+bdeb282de18cd7077329c8599d35185bf5e1993e data/dndcraft/loot_tables/blocks/titanium_block.json
+d86c9f5afc501ffa47ec11cb860a1bef45b90b28 data/dndcraft/loot_tables/blocks/titanium_ore.json
