@@ -1,4 +1,4 @@
-// 1.19.2	2025-01-16T15:52:31.8920753	Tags for minecraft:item
+// 1.19.2	2025-01-25T19:56:02.5220789	Tags for minecraft:item
 fae382483b8c58de6094dce8fb138e8c4be75be1 data/dndcraft/tags/items/adamantine_block.json
 fcdfd1a575bee1e73dd84d56a32ee330570ff89f data/dndcraft/tags/items/adamant_ore.json
 4e08acab84447530983418b2a7ed777372ffdb2c data/dndcraft/tags/items/mithril_block.json
@@ -17,6 +17,6 @@ bc6432c78fb0ce93aaa825b574df8d1b49d4b821 data/forge/tags/items/ingots.json
 883f58740ff08a12741f915c7a581441684090ef data/forge/tags/items/raw_materials.json
 3d7022d8d072fc7625fca87a92b8545cf12234ba data/forge/tags/items/tools/axes.json
 5fb8bd20bad3940a9078b0b0ec7862065fe28fe7 data/forge/tags/items/tools/hoes.json
-24f2f5cd64fe16585959e6f61f398e39614e11ab data/forge/tags/items/tools/pickaxes.json
+cae98238c618ce0e9afa1ec26b9eb808f870505b data/forge/tags/items/tools/pickaxes.json
 babaa9bfd0aff5ed295d10f3d24f44fe4cfe04d2 data/forge/tags/items/tools/shovels.json
 e6abc5b923356f455bd437551181ed715b322cca data/forge/tags/items/tools/swords.json

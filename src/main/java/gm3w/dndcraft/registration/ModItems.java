@@ -47,6 +47,10 @@ public class ModItems {
     public static final RegistryObject<Item> ADAMANTINE_INGOT = registerItem("adamantine_ingot");
     public static final RegistryObject<Item> ADAMANTINE_NUGGET = registerItem("adamantine_nugget");
 
+    // Tools
+
+    public static final RegistryObject<Item> BONE_PICKAXE = ITEMS.register("bone_pickaxe", () -> new PickaxeItem(ModTiers.BONE, 1, -2.8F, ITEM_PROPERTIES));
+
     public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new SwordItem(ModTiers.COPPER, 3, -2.4F, ITEM_PROPERTIES));
     public static final RegistryObject<Item> COPPER_SHOVEL = ITEMS.register("copper_shovel", () -> new ShovelItem(ModTiers.COPPER, 1.5F, -3F, ITEM_PROPERTIES));
     public static final RegistryObject<Item> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new PickaxeItem(ModTiers.COPPER, 1, -2.8F, ITEM_PROPERTIES));

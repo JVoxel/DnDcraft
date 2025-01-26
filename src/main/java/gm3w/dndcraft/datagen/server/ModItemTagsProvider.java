@@ -40,7 +40,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
 
         tag(Tags.Items.TOOLS_SWORDS).add(ModItems.COPPER_SWORD.get(), ModItems.SILVER_SWORD.get(), ModItems.TITANIUM_SWORD.get(), ModItems.MITHRIL_SWORD.get(), ModItems.ADAMANTINE_SWORD.get());
         tag(Tags.Items.TOOLS_SHOVELS).add(ModItems.COPPER_SHOVEL.get(), ModItems.SILVER_SHOVEL.get(), ModItems.TITANIUM_SHOVEL.get(), ModItems.MITHRIL_SHOVEL.get(), ModItems.ADAMANTINE_SHOVEL.get());
-        tag(Tags.Items.TOOLS_PICKAXES).add(ModItems.COPPER_PICKAXE.get(), ModItems.SILVER_PICKAXE.get(), ModItems.TITANIUM_PICKAXE.get(), ModItems.MITHRIL_PICKAXE.get(), ModItems.ADAMANTINE_PICKAXE.get());
+        tag(Tags.Items.TOOLS_PICKAXES).add(ModItems.BONE_PICKAXE.get(), ModItems.COPPER_PICKAXE.get(), ModItems.SILVER_PICKAXE.get(), ModItems.TITANIUM_PICKAXE.get(), ModItems.MITHRIL_PICKAXE.get(), ModItems.ADAMANTINE_PICKAXE.get());
         tag(Tags.Items.TOOLS_AXES).add(ModItems.COPPER_AXE.get(), ModItems.SILVER_AXE.get(), ModItems.TITANIUM_AXE.get(), ModItems.MITHRIL_AXE.get(), ModItems.ADAMANTINE_AXE.get());
         tag(Tags.Items.TOOLS_HOES).add(ModItems.COPPER_HOE.get(), ModItems.SILVER_HOE.get(), ModItems.TITANIUM_HOE.get(), ModItems.MITHRIL_HOE.get(), ModItems.ADAMANTINE_HOE.get());
 

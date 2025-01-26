@@ -1,9 +1,10 @@
-// 1.19.2	2025-01-16T16:02:26.4307009	Recipes
+// 1.19.2	2025-01-25T19:56:02.5220789	Recipes
 7d563d6cbe8e532e93564179e43094f1daf9b4a9 data/dndcraft/advancements/recipes/dndcraft/adamantine_axe.json
 deb41bfc5ab072b426bc147962e8a77f2b7529b8 data/dndcraft/advancements/recipes/dndcraft/adamantine_hoe.json
 bb69012067d6e9151d90296b68b69752dfd3c257 data/dndcraft/advancements/recipes/dndcraft/adamantine_pickaxe.json
 d618cae8bd0ba832888b3c571e3adb2dbe88342a data/dndcraft/advancements/recipes/dndcraft/adamantine_shovel.json
 03dd5d601fa78c995f448d8ef9b4cd6f0f01073b data/dndcraft/advancements/recipes/dndcraft/adamantine_sword.json
+462a6016e152a5a12f5cdfd79f876104ade8abc3 data/dndcraft/advancements/recipes/dndcraft/bone_pickaxe.json
 7a64fabd5f30242365f37f3d7f48bced348f67cd data/dndcraft/advancements/recipes/dndcraft/copper_axe.json
 45fbb19ac9314dcc0e09fcf49012078d61aed01d data/dndcraft/advancements/recipes/dndcraft/copper_hoe.json
 0795f5b2409c1b671785d22bda526698d64d169f data/dndcraft/advancements/recipes/dndcraft/copper_pickaxe.json
@@ -29,6 +30,7 @@ e75d55afc9dc656202f9639cfee11a37f03f4824 data/dndcraft/recipes/adamantine_axe.js
 3b86d486ec981e0a73a3cb38012571d66eed659f data/dndcraft/recipes/adamantine_pickaxe.json
 e4c90ed4d2ae5dc1301c8a2cfb5d255ca4e81371 data/dndcraft/recipes/adamantine_shovel.json
 60a21d693ddb2f321b747aa18f665f5312fbd504 data/dndcraft/recipes/adamantine_sword.json
+8acd1e1aae28657649624b6c5acaf016d251a8d2 data/dndcraft/recipes/bone_pickaxe.json
 834e2369b742fb996a539e6c3e4305b100e2b1f8 data/dndcraft/recipes/copper_axe.json
 ab3b7e1b1915a9e7e93dcdc57cc7762a329abd69 data/dndcraft/recipes/copper_hoe.json
 d78a4462cccbd8782fb512528e2e9ffcdc0693f9 data/dndcraft/recipes/copper_pickaxe.json

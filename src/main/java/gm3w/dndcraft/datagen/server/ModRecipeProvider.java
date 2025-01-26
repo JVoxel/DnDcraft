@@ -37,6 +37,8 @@ public class ModRecipeProvider extends RecipeProvider {
         oreBlasting(pFinishedRecipeConsumer, MITHRIL_SMELTABLES, ModItems.MITHRIL_INGOT.get(), 1.2F, 100, "mithril_ingot");
         oreBlasting(pFinishedRecipeConsumer, ADAMANT_SMELTABLES, ModItems.ADAMANTINE_INGOT.get(), 1.5F, 100, "adamantine_ingot");
 
+        ShapedRecipeBuilder.shaped(ModItems.BONE_PICKAXE.get()).define('#', Items.STICK).define('X', Items.BONE).pattern("XXX").pattern(" # ").pattern(" # ").unlockedBy("has_bone", has(Items.BONE)).save(pFinishedRecipeConsumer);
+
 
         nineBlockStorageRecipes(pFinishedRecipeConsumer, Items.COPPER_INGOT, Blocks.COPPER_BLOCK);
         nineBlockStorageRecipesWithCustomPacking(pFinishedRecipeConsumer, ModItems.COPPER_NUGGET.get(), Items.COPPER_INGOT, "copper_ingot_from_nuggets", "copper_ingot");
@@ -46,7 +48,6 @@ public class ModRecipeProvider extends RecipeProvider {
         ShapedRecipeBuilder.shaped(ModItems.COPPER_PICKAXE.get()).define('#', Items.STICK).define('X', Items.COPPER_INGOT).pattern("XXX").pattern(" # ").pattern(" # ").unlockedBy("has_copper_ingot", has(Items.COPPER_INGOT)).save(pFinishedRecipeConsumer);
         ShapedRecipeBuilder.shaped(ModItems.COPPER_SHOVEL.get()).define('#', Items.STICK).define('X', Items.COPPER_INGOT).pattern("X").pattern("#").pattern("#").unlockedBy("has_copper_ingot", has(Items.COPPER_INGOT)).save(pFinishedRecipeConsumer);
         ShapedRecipeBuilder.shaped(ModItems.COPPER_SWORD.get()).define('#', Items.STICK).define('X', Items.COPPER_INGOT).pattern("X").pattern("X").pattern("#").unlockedBy("has_copper_ingot", has(Items.COPPER_INGOT)).save(pFinishedRecipeConsumer);
-
 
         nineBlockStorageRecipes(pFinishedRecipeConsumer, ModItems.SILVER_INGOT.get(), ModBlocks.SILVER_BLOCK.get());
         nineBlockStorageRecipesWithCustomPacking(pFinishedRecipeConsumer, ModItems.SILVER_NUGGET.get(), ModItems.SILVER_INGOT.get(), "silver_ingot_from_nuggets", "silver_ingot");

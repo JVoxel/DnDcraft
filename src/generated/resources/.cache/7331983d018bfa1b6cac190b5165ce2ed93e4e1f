@@ -1,4 +1,4 @@
-// 1.19.2	2025-01-16T15:52:31.8886943	Item Models: dndcraft
+// 1.19.2	2025-01-25T19:56:02.5169976	Item Models: dndcraft
 678ac5a8e406aad4b791cf32177469377877609d assets/dndcraft/models/item/adamantine_axe.json
 ef54b454ab3343bb5858d8566ad7dcf8b91d8c5c assets/dndcraft/models/item/adamantine_block.json
 1a4f4bf8f140d209415f16db1457bead52d98fdb assets/dndcraft/models/item/adamantine_hoe.json
@@ -8,6 +8,7 @@ d37b83c6ba011733d071f5e31ad6b77fa7b569a4 assets/dndcraft/models/item/adamantine_
 0aaa5a41f2d1034131a830bfd48b0ace3d609e50 assets/dndcraft/models/item/adamantine_shovel.json
 384f7928c43c1726456e09214bac040dccaf87d4 assets/dndcraft/models/item/adamantine_sword.json
 7dd3ee0048b939d2ff22d759c98fce8e366b0d96 assets/dndcraft/models/item/adamant_ore.json
+1c856b72744d51a908ffbb59b2095eda8d62218e assets/dndcraft/models/item/bone_pickaxe.json
 9229b993ddc6d4adc1001822cba7944df74d7fbc assets/dndcraft/models/item/copper_axe.json
 11cf040251f5e7fce734473187d1343be2877462 assets/dndcraft/models/item/copper_hoe.json
 8389d6a2a86e063070be7ac449537603c4e0fe75 assets/dndcraft/models/item/copper_nugget.json

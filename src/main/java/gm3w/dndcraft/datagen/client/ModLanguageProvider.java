@@ -45,6 +45,11 @@ public class ModLanguageProvider extends LanguageProvider {
         add(ModItems.MITHRIL_NUGGET.get(), "Mithril Nugget");
         add(ModItems.ADAMANTINE_NUGGET.get(), "Adamantine Nugget");
 
+        // Tools
+
+        add(ModItems.BONE_PICKAXE.get(), "Bone Pickaxe");
+
+
         add(ModItems.COPPER_SWORD.get(), "Copper Sword");
         add(ModItems.COPPER_SHOVEL.get(), "Copper Shovel");
         add(ModItems.COPPER_PICKAXE.get(), "Copper Pickaxe");

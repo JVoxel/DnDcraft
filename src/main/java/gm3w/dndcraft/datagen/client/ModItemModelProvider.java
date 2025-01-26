@@ -50,6 +50,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.MITHRIL_NUGGET);
         simpleItem(ModItems.ADAMANTINE_NUGGET);
 
+        // Tools
+
+        handheldItem(ModItems.BONE_PICKAXE);
+
+
         handheldItem(ModItems.COPPER_SWORD);
         handheldItem(ModItems.COPPER_SHOVEL);
         handheldItem(ModItems.COPPER_PICKAXE);
