@@ -1,9 +1,9 @@
-package gm3w.dndcraft.registration;
+package gm3w.dndcraft.item;
 
 import gm3w.dndcraft.DnDcraft;
+import gm3w.dndcraft.block.ModBlocks;
 import gm3w.dndcraft.setup.ModSetup;
-import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.food.Foods;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -15,7 +15,6 @@ public class ModItems {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, DnDcraft.MOD_ID);
     public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModSetup.ITEM_GROUP);
-
 
     public static final RegistryObject<Item> SILVER_ORE = registerBlock(ModBlocks.SILVER_ORE);
     public static final RegistryObject<Item> DEEPSLATE_SILVER_ORE = registerBlock(ModBlocks.DEEPSLATE_SILVER_ORE);
@@ -49,7 +48,11 @@ public class ModItems {
 
     // Tools
 
+    public static final RegistryObject<Item> BONE_SWORD = ITEMS.register("bone_sword", () -> new SwordItem(ModTiers.BONE, 3, -2.4F, ITEM_PROPERTIES));
+    public static final RegistryObject<Item> BONE_SHOVEL = ITEMS.register("bone_shovel", () -> new ShovelItem(ModTiers.BONE, 1.5F, -3F, ITEM_PROPERTIES));
     public static final RegistryObject<Item> BONE_PICKAXE = ITEMS.register("bone_pickaxe", () -> new PickaxeItem(ModTiers.BONE, 1, -2.8F, ITEM_PROPERTIES));
+    public static final RegistryObject<Item> BONE_AXE = ITEMS.register("bone_axe", () -> new AxeItem(ModTiers.BONE, 6, -3.1F, ITEM_PROPERTIES));
+    public static final RegistryObject<Item> BONE_HOE = ITEMS.register("bone_hoe", () -> new HoeItem(ModTiers.BONE, 0, -1.0F, ITEM_PROPERTIES));
 
     public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new SwordItem(ModTiers.COPPER, 3, -2.4F, ITEM_PROPERTIES));
     public static final RegistryObject<Item> COPPER_SHOVEL = ITEMS.register("copper_shovel", () -> new ShovelItem(ModTiers.COPPER, 1.5F, -3F, ITEM_PROPERTIES));
@@ -80,6 +83,10 @@ public class ModItems {
     public static final RegistryObject<Item> ADAMANTINE_PICKAXE = ITEMS.register("adamantine_pickaxe", () -> new PickaxeItem(ModTiers.ADAMANTINE, 1, -2.8F, ITEM_PROPERTIES));
     public static final RegistryObject<Item> ADAMANTINE_AXE = ITEMS.register("adamantine_axe", () -> new AxeItem(ModTiers.ADAMANTINE, 6.0F, -3.1F, ITEM_PROPERTIES));
     public static final RegistryObject<Item> ADAMANTINE_HOE = ITEMS.register("adamantine_hoe", () -> new HoeItem(ModTiers.ADAMANTINE, 0, -1.0F, ITEM_PROPERTIES));
+
+    // Armor
+    public static final RegistryObject<Item> WOODEN_HELMET = ITEMS.register("wooden_helmet", () -> new ArmorItem(ArmorMaterials.LEATHER, EquipmentSlot.HEAD, ITEM_PROPERTIES));
+
 
     // Methods
     public static void init(IEventBus modEventBus) {

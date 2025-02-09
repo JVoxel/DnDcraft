@@ -1,9 +1,8 @@
 package gm3w.dndcraft.datagen.server;
 
-import gm3w.dndcraft.registration.ModBlocks;
-import gm3w.dndcraft.registration.ModItems;
+import gm3w.dndcraft.block.ModBlocks;
+import gm3w.dndcraft.item.ModItems;
 import com.google.common.collect.ImmutableList;
-import net.minecraft.client.RecipeBookCategories;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeProvider;
@@ -13,6 +12,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Blocks;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Consumer;
 
@@ -26,7 +26,7 @@ public class ModRecipeProvider extends RecipeProvider {
     public ModRecipeProvider(DataGenerator gen) { super(gen); }
 
     @Override
-    protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+    protected void buildCraftingRecipes(@NotNull Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 
         oreSmelting(pFinishedRecipeConsumer, SILVER_SMELTABLES, ModItems.SILVER_INGOT.get(), 0.7F, 200, "silver_ingot");
         oreSmelting(pFinishedRecipeConsumer, TITANIUM_SMELTABLES, ModItems.TITANIUM_INGOT.get(), 1.0F, 200, "titanium_ingot");
@@ -37,8 +37,11 @@ public class ModRecipeProvider extends RecipeProvider {
         oreBlasting(pFinishedRecipeConsumer, MITHRIL_SMELTABLES, ModItems.MITHRIL_INGOT.get(), 1.2F, 100, "mithril_ingot");
         oreBlasting(pFinishedRecipeConsumer, ADAMANT_SMELTABLES, ModItems.ADAMANTINE_INGOT.get(), 1.5F, 100, "adamantine_ingot");
 
-        ShapedRecipeBuilder.shaped(ModItems.BONE_PICKAXE.get()).define('#', Items.STICK).define('X', Items.BONE).pattern("XXX").pattern(" # ").pattern(" # ").unlockedBy("has_bone", has(Items.BONE)).save(pFinishedRecipeConsumer);
-
+        ShapedRecipeBuilder.shaped(ModItems.BONE_AXE.get()).define('#', Items.STICK).define('X', Items.BONE).pattern("XX").pattern("X#").pattern(" #").unlockedBy("has_bone_ingot", has(Items.BONE)).save(pFinishedRecipeConsumer);
+        ShapedRecipeBuilder.shaped(ModItems.BONE_HOE.get()).define('#', Items.STICK).define('X', Items.BONE).pattern("XX").pattern(" #").pattern(" #").unlockedBy("has_bone_ingot", has(Items.BONE)).save(pFinishedRecipeConsumer);
+        ShapedRecipeBuilder.shaped(ModItems.BONE_PICKAXE.get()).define('#', Items.STICK).define('X', Items.BONE).pattern("XXX").pattern(" # ").pattern(" # ").unlockedBy("has_bone_ingot", has(Items.BONE)).save(pFinishedRecipeConsumer);
+        ShapedRecipeBuilder.shaped(ModItems.BONE_SHOVEL.get()).define('#', Items.STICK).define('X', Items.BONE).pattern("X").pattern("#").pattern("#").unlockedBy("has_bone_ingot", has(Items.BONE)).save(pFinishedRecipeConsumer);
+        ShapedRecipeBuilder.shaped(ModItems.BONE_SWORD.get()).define('#', Items.STICK).define('X', Items.BONE).pattern("X").pattern("X").pattern("#").unlockedBy("has_bone_ingot", has(Items.BONE)).save(pFinishedRecipeConsumer);
 
         nineBlockStorageRecipes(pFinishedRecipeConsumer, Items.COPPER_INGOT, Blocks.COPPER_BLOCK);
         nineBlockStorageRecipesWithCustomPacking(pFinishedRecipeConsumer, ModItems.COPPER_NUGGET.get(), Items.COPPER_INGOT, "copper_ingot_from_nuggets", "copper_ingot");

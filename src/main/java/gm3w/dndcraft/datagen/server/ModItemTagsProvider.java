@@ -1,8 +1,8 @@
 package gm3w.dndcraft.datagen.server;
 
 import gm3w.dndcraft.DnDcraft;
-import gm3w.dndcraft.registration.ModItems;
-import gm3w.dndcraft.registration.ModTags;
+import gm3w.dndcraft.item.ModItems;
+import gm3w.dndcraft.ModTags;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.tags.BlockTagsProvider;
 import net.minecraft.data.tags.ItemTagsProvider;

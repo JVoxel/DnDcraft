@@ -1,7 +1,7 @@
 package gm3w.dndcraft;
 
-import gm3w.dndcraft.registration.ModBlocks;
-import gm3w.dndcraft.registration.ModItems;
+import gm3w.dndcraft.block.ModBlocks;
+import gm3w.dndcraft.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;

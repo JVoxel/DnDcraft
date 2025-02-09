@@ -1,6 +1,7 @@
-package gm3w.dndcraft.registration;
+package gm3w.dndcraft.item;
 
 import gm3w.dndcraft.DnDcraft;
+import gm3w.dndcraft.ModTags;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.Items;

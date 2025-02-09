@@ -1,7 +1,7 @@
 package gm3w.dndcraft.datagen.server;
 
-import gm3w.dndcraft.registration.ModBlocks;
-import gm3w.dndcraft.registration.ModItems;
+import gm3w.dndcraft.block.ModBlocks;
+import gm3w.dndcraft.item.ModItems;
 import net.minecraft.data.DataGenerator;
 
 public class ModLootTableProvider extends BaseLootTableProvider {

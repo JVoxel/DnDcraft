@@ -1,43 +1,43 @@
-[25Jan2025 20:15:19.266] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 1.19, --assetsDir, C:\Users\jacob\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.4.12, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, --mod, dndcraft, --all, --output, C:\Users\jacob\OneDrive\Documents\1Jacob\DDcraft\GitHub\DnDcraft\src\generated\resources, --existing, C:\Users\jacob\OneDrive\Documents\1Jacob\DDcraft\GitHub\DnDcraft\src\main\resources, --mixin.config, dndcraft.mixin.json]
-[25Jan2025 20:15:19.271] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[25Jan2025 20:15:19.419] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/jacob/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23127!/ Service=ModLauncher Env=CLIENT
-[25Jan2025 20:15:19.836] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jacob\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.4.12\1bfcf07f9a347eb709cc926aa4ab0ad7ef1a8284\javafmllanguage-1.19.2-43.4.12.jar is missing mods.toml file
-[25Jan2025 20:15:19.840] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jacob\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.4.12\47021c70f232eebe906ed747b3c7584f92e64a5\lowcodelanguage-1.19.2-43.4.12.jar is missing mods.toml file
-[25Jan2025 20:15:19.843] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jacob\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.4.12\9a68b493dc469af43f1caf5c46a51e01ee263d4f\mclanguage-1.19.2-43.4.12.jar is missing mods.toml file
-[25Jan2025 20:15:19.846] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jacob\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.4.12\147b06741152d163623bad8e89485cb1735cd8ec\fmlcore-1.19.2-43.4.12.jar is missing mods.toml file
-[25Jan2025 20:15:19.963] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[25Jan2025 20:15:21.675] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by dndcraft.mixin.json is higher than the maximum level supported by this version of mixin (JAVA_13).
-[25Jan2025 20:15:21.675] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[25Jan2025 20:15:21.675] [main/ERROR] [mixin/]: Mixin config dndcraft.mixin.json does not specify "minVersion" property
-[25Jan2025 20:15:21.679] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\jacob\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19, --mod, dndcraft, --all, --output, C:\Users\jacob\OneDrive\Documents\1Jacob\DDcraft\GitHub\DnDcraft\src\generated\resources, --existing, C:\Users\jacob\OneDrive\Documents\1Jacob\DDcraft\GitHub\DnDcraft\src\main\resources]
-[25Jan2025 20:15:21.806] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
-[25Jan2025 20:15:21.808] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
-[25Jan2025 20:15:21.827] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[25Jan2025 20:15:21.828] [main/INFO] [mixin/]: Selecting config dndcraft.mixin.json
-[25Jan2025 20:15:21.833] [main/WARN] [mixin/]: Reference map 'dndcraft.mixin-refmap.json' for dndcraft.mixin.json could not be read. If this is a development environment you can ignore this message
-[25Jan2025 20:15:21.837] [main/INFO] [mixin/]: Preparing dndcraft.mixin.json (3)
-[25Jan2025 20:15:22.252] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [dndcraft]
-[25Jan2025 20:15:24.813] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[25Jan2025 20:15:25.702] [main/INFO] [mixin/]: Mixing HoeItemMixin from dndcraft.mixin.json into net.minecraft.world.item.HoeItem
-[25Jan2025 20:15:25.886] [main/INFO] [mixin/]: Mixing TiersMixin from dndcraft.mixin.json into net.minecraft.world.item.Tiers
-[25Jan2025 20:15:26.450] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.12, for MC 1.19.2 with MCP 20220805.130853
-[25Jan2025 20:15:26.454] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.12 Initialized
-[25Jan2025 20:15:26.457] [modloading-worker-0/INFO] [mixin/]: Mixing TierSortingRegistryMixin from dndcraft.mixin.json into net.minecraftforge.common.TierSortingRegistry
-[25Jan2025 20:15:26.913] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/jacob/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.4.12_mapped_parchment_2022.11.20-1.19.2/forge-1.19.2-43.4.12_mapped_parchment_2022.11.20-1.19.2.jar%23189!/assets/.mcassetsroot' uses unexpected schema
-[25Jan2025 20:15:26.914] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/jacob/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.4.12_mapped_parchment_2022.11.20-1.19.2/forge-1.19.2-43.4.12_mapped_parchment_2022.11.20-1.19.2.jar%23189!/data/.mcassetsroot' uses unexpected schema
-[25Jan2025 20:15:27.408] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: dndcraft Block Tags
-[25Jan2025 20:15:27.478] [main/INFO] [net.minecraft.data.DataGenerator/]: dndcraft Block Tags finished after 69 ms
-[25Jan2025 20:15:27.478] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item
-[25Jan2025 20:15:27.490] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item finished after 11 ms
-[25Jan2025 20:15:27.490] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: LootTables
-[25Jan2025 20:15:27.593] [main/INFO] [net.minecraft.data.DataGenerator/]: LootTables finished after 102 ms
-[25Jan2025 20:15:27.593] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[25Jan2025 20:15:27.647] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 53 ms
-[25Jan2025 20:15:27.647] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: dndcraft
-[25Jan2025 20:15:27.687] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: dndcraft finished after 40 ms
-[25Jan2025 20:15:27.687] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: dndcraft
-[25Jan2025 20:15:27.806] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: dndcraft finished after 118 ms
-[25Jan2025 20:15:27.806] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
-[25Jan2025 20:15:27.806] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 0 ms
-[25Jan2025 20:15:27.807] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 399 ms
-[25Jan2025 20:15:27.820] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 250, old count: 250, new count: 251, removed stale: 0, written: 0
+[30Jan2025 20:45:14.170] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 1.19, --assetsDir, C:\Users\jacob\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.4.12, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, --mod, dndcraft, --all, --output, C:\Users\jacob\OneDrive\Documents\1Jacob\DDcraft\GitHub\DnDcraft\src\generated\resources, --existing, C:\Users\jacob\OneDrive\Documents\1Jacob\DDcraft\GitHub\DnDcraft\src\main\resources, --mixin.config, dndcraft.mixin.json]
+[30Jan2025 20:45:14.186] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[30Jan2025 20:45:14.342] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/jacob/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23127!/ Service=ModLauncher Env=CLIENT
+[30Jan2025 20:45:14.778] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jacob\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.4.12\1bfcf07f9a347eb709cc926aa4ab0ad7ef1a8284\javafmllanguage-1.19.2-43.4.12.jar is missing mods.toml file
+[30Jan2025 20:45:14.793] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jacob\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.4.12\47021c70f232eebe906ed747b3c7584f92e64a5\lowcodelanguage-1.19.2-43.4.12.jar is missing mods.toml file
+[30Jan2025 20:45:14.793] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jacob\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.4.12\9a68b493dc469af43f1caf5c46a51e01ee263d4f\mclanguage-1.19.2-43.4.12.jar is missing mods.toml file
+[30Jan2025 20:45:14.793] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jacob\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.4.12\147b06741152d163623bad8e89485cb1735cd8ec\fmlcore-1.19.2-43.4.12.jar is missing mods.toml file
+[30Jan2025 20:45:14.872] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[30Jan2025 20:45:16.182] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by dndcraft.mixin.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[30Jan2025 20:45:16.182] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[30Jan2025 20:45:16.182] [main/ERROR] [mixin/]: Mixin config dndcraft.mixin.json does not specify "minVersion" property
+[30Jan2025 20:45:16.182] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\jacob\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19, --mod, dndcraft, --all, --output, C:\Users\jacob\OneDrive\Documents\1Jacob\DDcraft\GitHub\DnDcraft\src\generated\resources, --existing, C:\Users\jacob\OneDrive\Documents\1Jacob\DDcraft\GitHub\DnDcraft\src\main\resources]
+[30Jan2025 20:45:16.276] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
+[30Jan2025 20:45:16.276] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[30Jan2025 20:45:16.292] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[30Jan2025 20:45:16.292] [main/INFO] [mixin/]: Selecting config dndcraft.mixin.json
+[30Jan2025 20:45:16.292] [main/WARN] [mixin/]: Reference map 'dndcraft.mixin-refmap.json' for dndcraft.mixin.json could not be read. If this is a development environment you can ignore this message
+[30Jan2025 20:45:16.292] [main/INFO] [mixin/]: Preparing dndcraft.mixin.json (3)
+[30Jan2025 20:45:16.682] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [dndcraft]
+[30Jan2025 20:45:18.605] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[30Jan2025 20:45:19.264] [main/INFO] [mixin/]: Mixing HoeItemMixin from dndcraft.mixin.json into net.minecraft.world.item.HoeItem
+[30Jan2025 20:45:19.390] [main/INFO] [mixin/]: Mixing TiersMixin from dndcraft.mixin.json into net.minecraft.world.item.Tiers
+[30Jan2025 20:45:19.751] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.12, for MC 1.19.2 with MCP 20220805.130853
+[30Jan2025 20:45:19.760] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.12 Initialized
+[30Jan2025 20:45:19.761] [modloading-worker-0/INFO] [mixin/]: Mixing TierSortingRegistryMixin from dndcraft.mixin.json into net.minecraftforge.common.TierSortingRegistry
+[30Jan2025 20:45:20.170] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/jacob/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.4.12_mapped_parchment_2022.11.20-1.19.2/forge-1.19.2-43.4.12_mapped_parchment_2022.11.20-1.19.2.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[30Jan2025 20:45:20.170] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/jacob/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.4.12_mapped_parchment_2022.11.20-1.19.2/forge-1.19.2-43.4.12_mapped_parchment_2022.11.20-1.19.2.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[30Jan2025 20:45:20.572] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: dndcraft Block Tags
+[30Jan2025 20:45:20.593] [main/INFO] [net.minecraft.data.DataGenerator/]: dndcraft Block Tags finished after 25 ms
+[30Jan2025 20:45:20.593] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item
+[30Jan2025 20:45:20.593] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item finished after 6 ms
+[30Jan2025 20:45:20.593] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: LootTables
+[30Jan2025 20:45:20.625] [main/INFO] [net.minecraft.data.DataGenerator/]: LootTables finished after 27 ms
+[30Jan2025 20:45:20.625] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[30Jan2025 20:45:20.672] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 39 ms
+[30Jan2025 20:45:20.672] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: dndcraft
+[30Jan2025 20:45:20.703] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: dndcraft finished after 36 ms
+[30Jan2025 20:45:20.703] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: dndcraft
+[30Jan2025 20:45:20.776] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: dndcraft finished after 70 ms
+[30Jan2025 20:45:20.776] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
+[30Jan2025 20:45:20.776] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 0 ms
+[30Jan2025 20:45:20.782] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 209 ms
+[30Jan2025 20:45:20.797] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 262, old count: 250, new count: 263, removed stale: 0, written: 14

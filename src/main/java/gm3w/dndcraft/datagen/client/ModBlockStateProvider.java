@@ -1,7 +1,7 @@
 package gm3w.dndcraft.datagen.client;
 
 import gm3w.dndcraft.DnDcraft;
-import gm3w.dndcraft.registration.ModBlocks;
+import gm3w.dndcraft.block.ModBlocks;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;

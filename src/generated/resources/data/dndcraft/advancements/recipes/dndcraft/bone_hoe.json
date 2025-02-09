@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dndcraft:bone_pickaxe"
+        "recipe": "dndcraft:bone_hoe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "dndcraft:bone_pickaxe"
+      "dndcraft:bone_hoe"
     ]
   }
 }

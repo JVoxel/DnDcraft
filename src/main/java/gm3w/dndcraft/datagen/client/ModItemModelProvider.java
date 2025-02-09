@@ -1,15 +1,12 @@
 package gm3w.dndcraft.datagen.client;
 
 import gm3w.dndcraft.DnDcraft;
-import gm3w.dndcraft.registration.ModItems;
+import gm3w.dndcraft.item.ModItems;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItemModelProvider extends ItemModelProvider {
@@ -52,8 +49,11 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         // Tools
 
+        handheldItem(ModItems.BONE_SWORD);
+        handheldItem(ModItems.BONE_SHOVEL);
         handheldItem(ModItems.BONE_PICKAXE);
-
+        handheldItem(ModItems.BONE_AXE);
+        handheldItem(ModItems.BONE_HOE);
 
         handheldItem(ModItems.COPPER_SWORD);
         handheldItem(ModItems.COPPER_SHOVEL);

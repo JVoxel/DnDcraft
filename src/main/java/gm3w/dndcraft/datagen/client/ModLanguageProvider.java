@@ -1,8 +1,8 @@
 package gm3w.dndcraft.datagen.client;
 
 import gm3w.dndcraft.DnDcraft;
-import gm3w.dndcraft.registration.ModBlocks;
-import gm3w.dndcraft.registration.ModItems;
+import gm3w.dndcraft.block.ModBlocks;
+import gm3w.dndcraft.item.ModItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.LanguageProvider;
 
@@ -47,8 +47,11 @@ public class ModLanguageProvider extends LanguageProvider {
 
         // Tools
 
+        add(ModItems.BONE_SWORD.get(), "Bone Sword");
+        add(ModItems.BONE_SHOVEL.get(), "Bone Shovel");
         add(ModItems.BONE_PICKAXE.get(), "Bone Pickaxe");
-
+        add(ModItems.BONE_AXE.get(), "Bone Axe");
+        add(ModItems.BONE_HOE.get(), "Bone Hoe");
 
         add(ModItems.COPPER_SWORD.get(), "Copper Sword");
         add(ModItems.COPPER_SHOVEL.get(), "Copper Shovel");

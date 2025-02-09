@@ -1,4 +1,4 @@
-package gm3w.dndcraft.registration;
+package gm3w.dndcraft.block;
 
 import gm3w.dndcraft.DnDcraft;
 import net.minecraft.world.level.block.Block;
@@ -9,8 +9,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
-import java.util.function.Supplier;
 
 public class ModBlocks {
 
@@ -31,12 +29,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> TITANIUM_BLOCK = BLOCKS.register("titanium_block", () -> new Block(STORAGE_BLOCK_PROPERTIES.strength(5f)));
     public static final RegistryObject<Block> MITHRIL_BLOCK = BLOCKS.register("mithril_block", () -> new Block(STORAGE_BLOCK_PROPERTIES.strength(6f)));
     public static final RegistryObject<Block> ADAMANTINE_BLOCK = BLOCKS.register("adamantine_block", () -> new Block(STORAGE_BLOCK_PROPERTIES.strength(7f)));
-
-    // Methods
-    public Block register(String name, Supplier<Block> block) {
-        RegistryObject<Block> blockObject = BLOCKS.register(name, block);
-        return blockObject.get();
-    }
 
     public static void init(IEventBus modEventBus) {
         BLOCKS.register(modEventBus);
