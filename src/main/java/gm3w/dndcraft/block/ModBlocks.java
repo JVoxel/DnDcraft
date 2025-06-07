@@ -21,14 +21,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> SILVER_ORE = BLOCKS.register("silver_ore", () -> new Block(ORE_PROPERTIES.strength(2f)));
     public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = BLOCKS.register("deepslate_silver_ore", () -> new Block(ORE_PROPERTIES.strength(2f)));
     public static final RegistryObject<Block> TITANIUM_ORE = BLOCKS.register("titanium_ore", () -> new Block(ORE_PROPERTIES.strength(3f)));
-    public static final RegistryObject<Block> DEEPSLATE_TITANIUM_ORE = BLOCKS.register("deepslate_titanium_ore", () -> new Block(ORE_PROPERTIES.strength(3f)));
-    public static final RegistryObject<Block> MITHRIL_ORE = BLOCKS.register("mithril_ore", () -> new Block(ORE_PROPERTIES.strength(4f)));
-    public static final RegistryObject<Block> ADAMANT_ORE = BLOCKS.register("adamant_ore", () -> new Block(ORE_PROPERTIES.strength(5f)));
+    public static final RegistryObject<Block> VANADIUM_ORE = BLOCKS.register("vanadium_ore", () -> new Block(ORE_PROPERTIES.strength(4f)));
+    public static final RegistryObject<Block> MITHRIL_ORE = BLOCKS.register("mithril_ore", () -> new Block(ORE_PROPERTIES.strength(5f)));
+    public static final RegistryObject<Block> ADAMANT_ORE = BLOCKS.register("adamant_ore", () -> new Block(ORE_PROPERTIES.strength(6f)));
 
     public static final RegistryObject<Block> SILVER_BLOCK = BLOCKS.register("silver_block", () -> new Block(STORAGE_BLOCK_PROPERTIES.strength((3f))));
     public static final RegistryObject<Block> TITANIUM_BLOCK = BLOCKS.register("titanium_block", () -> new Block(STORAGE_BLOCK_PROPERTIES.strength(5f)));
-    public static final RegistryObject<Block> MITHRIL_BLOCK = BLOCKS.register("mithril_block", () -> new Block(STORAGE_BLOCK_PROPERTIES.strength(6f)));
-    public static final RegistryObject<Block> ADAMANTINE_BLOCK = BLOCKS.register("adamantine_block", () -> new Block(STORAGE_BLOCK_PROPERTIES.strength(7f)));
+    public static final RegistryObject<Block> VANADIUM_BLOCK = BLOCKS.register("vanadium_block", () -> new Block(STORAGE_BLOCK_PROPERTIES.strength(6f)));
+    public static final RegistryObject<Block> MITHRIL_BLOCK = BLOCKS.register("mithril_block", () -> new Block(STORAGE_BLOCK_PROPERTIES.strength(7f)));
+    public static final RegistryObject<Block> ADAMANTINE_BLOCK = BLOCKS.register("adamantine_block", () -> new Block(STORAGE_BLOCK_PROPERTIES.strength(8f)));
 
     public static void init(IEventBus modEventBus) {
         BLOCKS.register(modEventBus);

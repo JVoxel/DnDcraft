@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 1.2,
+  "group": "vanadium_ingot",
+  "ingredient": {
+    "item": "dndcraft:vanadium_ore"
+  },
+  "result": "dndcraft:vanadium_ingot"
+}

@@ -1,10 +1,5 @@
 {
   "values": [
-    "dndcraft:bone_pickaxe",
-    "dndcraft:copper_pickaxe",
-    "dndcraft:silver_pickaxe",
-    "dndcraft:titanium_pickaxe",
-    "dndcraft:mithril_pickaxe",
-    "dndcraft:adamantine_pickaxe"
+    "#dndcraft:mod_tools_pickaxes"
   ]
 }

@@ -3,6 +3,7 @@ package gm3w.dndcraft;
 import gm3w.dndcraft.block.ModBlocks;
 import gm3w.dndcraft.item.ModItems;
 import com.mojang.logging.LogUtils;
+import gm3w.dndcraft.sound.ModSoundEvents;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -20,6 +21,7 @@ public class DnDcraft
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModBlocks.init(modEventBus);
         ModItems.init(modEventBus);
+        ModSoundEvents.init(modEventBus);
     }
 
 }

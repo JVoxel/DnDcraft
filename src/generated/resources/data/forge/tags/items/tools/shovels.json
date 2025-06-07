@@ -1,9 +1,5 @@
 {
   "values": [
-    "dndcraft:copper_shovel",
-    "dndcraft:silver_shovel",
-    "dndcraft:titanium_shovel",
-    "dndcraft:mithril_shovel",
-    "dndcraft:adamantine_shovel"
+    "#dndcraft:mod_tools_shovels"
   ]
 }

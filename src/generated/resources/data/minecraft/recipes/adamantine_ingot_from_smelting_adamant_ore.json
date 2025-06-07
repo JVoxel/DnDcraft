@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "cookingtime": 200,
-  "experience": 1.5,
+  "experience": 1.8,
   "group": "adamantine_ingot",
   "ingredient": {
     "item": "dndcraft:adamant_ore"

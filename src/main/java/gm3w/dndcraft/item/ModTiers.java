@@ -11,6 +11,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;
 import net.minecraftforge.common.TierSortingRegistry;
 
+import java.util.Collections;
 import java.util.List;
 
 public class ModTiers {
@@ -32,14 +33,28 @@ public class ModTiers {
     public static final Tier TITANIUM = TierSortingRegistry.registerTier(
             new ForgeTier(4, 890, 5.0F, 3.0F, 8, ModTags.Blocks.NEEDS_TITANIUM_TOOL, () ->  Ingredient.of(ModItems.TITANIUM_INGOT.get())),
             new ResourceLocation(DnDcraft.MOD_ID, "titanium"),
-            List.of(Tiers.IRON),
-            List.of(Tiers.DIAMOND)
+            List.of(Tiers.DIAMOND),
+            List.of()
+    );
+
+    public static final Tier VANADIUM = TierSortingRegistry.registerTier(
+            new ForgeTier(4, 890, 5.0F, 3.0F, 8, ModTags.Blocks.NEEDS_VANADIUM_TOOL, () ->  Ingredient.of(ModItems.VANADIUM_INGOT.get())),
+            new ResourceLocation(DnDcraft.MOD_ID, "vanadium"),
+            List.of(Tiers.DIAMOND),
+            List.of()
+    );
+
+    public static final Tier MITHRIL = TierSortingRegistry.registerTier(
+            new ForgeTier(4, 890, 5.0F, 3.0F, 8, ModTags.Blocks.NEEDS_MITHRIL_TOOL, () ->  Ingredient.of(ModItems.MITHRIL_INGOT.get())),
+            new ResourceLocation(DnDcraft.MOD_ID, "mithril"),
+            List.of(Tiers.DIAMOND),
+            List.of()
     );
 
     public static final Tier ADAMANTINE = TierSortingRegistry.registerTier(
             new ForgeTier(7, 3047, 10.0F, 8.0F, 18, ModTags.Blocks.NEEDS_ADAMANTINE_TOOL, () -> Ingredient.of(ModItems.ADAMANTINE_INGOT.get())),
             new ResourceLocation(DnDcraft.MOD_ID, "adamantine"),
-            List.of(Tiers.IRON),
-            List.of(Tiers.DIAMOND)
+            List.of(Tiers.DIAMOND),
+            List.of()
     );
 }

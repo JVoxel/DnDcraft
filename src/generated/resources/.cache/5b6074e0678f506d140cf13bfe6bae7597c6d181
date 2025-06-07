@@ -1,18 +1,24 @@
-// 1.19.2	2025-01-16T15:52:31.890068	dndcraft Block Tags
+// 1.19.2	2025-05-28T16:59:54.4908287	dndcraft Block Tags
 fae382483b8c58de6094dce8fb138e8c4be75be1 data/dndcraft/tags/blocks/adamantine_block.json
 fcdfd1a575bee1e73dd84d56a32ee330570ff89f data/dndcraft/tags/blocks/adamant_ore.json
 4e08acab84447530983418b2a7ed777372ffdb2c data/dndcraft/tags/blocks/mithril_block.json
 7f86f266ae4216a75832f47bd217ae9c14cda510 data/dndcraft/tags/blocks/mithril_ore.json
 b73305104705e71eaa6c6ded34570de0fac230ff data/dndcraft/tags/blocks/needs_copper_tool.json
-96dcab8042195a5a248a103a1e3b9d04144ff8fb data/dndcraft/tags/blocks/needs_titanium_tool.json
+328fd3524515bdd8b90655a185f145ddf2767707 data/dndcraft/tags/blocks/needs_mithril_tool.json
+470b3ee0d0cff3520ec3cc38387a1094bc3112fd data/dndcraft/tags/blocks/needs_titanium_tool.json
+c5173101a69010c632924f295a89793606d90828 data/dndcraft/tags/blocks/needs_vanadium_tool.json
 11357e369f338c0414767022782aaf12f283e84f data/dndcraft/tags/blocks/silver_block.json
 3e15b783134b952d28d3acb4e57ebbf2da0ad08d data/dndcraft/tags/blocks/silver_ore.json
 8c02dcf1d272f4b6c7d7de47ebeb2e1598009f4b data/dndcraft/tags/blocks/titanium_block.json
-b98c8eb4da4c0932e18a2afa84dc75642bb4f4f1 data/dndcraft/tags/blocks/titanium_ore.json
-328fd3524515bdd8b90655a185f145ddf2767707 data/forge/tags/blocks/needs_netherite_tool.json
-16b7e3d16b897f977fd53e1e62877b44cc2e8042 data/forge/tags/blocks/ores.json
-98eac0c9e1639da9f9681b982b8f975cc31ef4b9 data/forge/tags/blocks/storage_blocks.json
+fc15bfa714eec9186c5136a3ce13849f512fe478 data/dndcraft/tags/blocks/titanium_ore.json
+e1c763a990c85da7ba18f1a87f8a87c51cb4be4f data/dndcraft/tags/blocks/vanadium_block.json
+be864fe17afc8810804f89085360c5d9b8c95340 data/dndcraft/tags/blocks/vanadium_ore.json
+90533bba9b5a7e5a9318de4d277a966402bd56ff data/forge/tags/blocks/ores.json
+ddd365ac40d6ab473c48b6c3fe86f4803b332a16 data/forge/tags/blocks/ores_in_ground/deepslate.json
+90533bba9b5a7e5a9318de4d277a966402bd56ff data/forge/tags/blocks/ore_rates/singular.json
+11ac15c3cdb2492d4629508b52af89756c224094 data/forge/tags/blocks/storage_blocks.json
 d2f3e6a486ae5bde7323c4c78aa7847abea614a1 data/minecraft/tags/blocks/mineable/pickaxe.json
-c5173101a69010c632924f295a89793606d90828 data/minecraft/tags/blocks/needs_diamond_tool.json
-ce836eebe9b05fd295580484be39a6f4bc17c069 data/minecraft/tags/blocks/needs_iron_tool.json
+ce836eebe9b05fd295580484be39a6f4bc17c069 data/minecraft/tags/blocks/needs_diamond_tool.json
 8420cf62135e6de6c2df87b69e24321d11a15e77 data/minecraft/tags/blocks/needs_stone_tool.json
+7240de63222481a09c424138ae2fe6c7f69eb47f data/minecraft/tags/blocks/overworld_carver_replaceables.json
+7240de63222481a09c424138ae2fe6c7f69eb47f data/minecraft/tags/blocks/snaps_goat_horn.json

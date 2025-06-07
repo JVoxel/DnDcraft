@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "cookingtime": 100,
-  "experience": 1.2,
+  "experience": 1.5,
   "group": "mithril_ingot",
   "ingredient": {
     "item": "dndcraft:mithril_ore"

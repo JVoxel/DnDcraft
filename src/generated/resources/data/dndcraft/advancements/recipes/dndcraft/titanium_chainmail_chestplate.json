@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dndcraft:titanium_chainmail_chestplate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_titanium_chainmail": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dndcraft:titanium_chainmail_plate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_titanium_chainmail",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dndcraft:titanium_chainmail_chestplate"
+    ]
+  }
+}

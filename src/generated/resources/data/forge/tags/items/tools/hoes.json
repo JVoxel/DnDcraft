@@ -1,9 +1,5 @@
 {
   "values": [
-    "dndcraft:copper_hoe",
-    "dndcraft:silver_hoe",
-    "dndcraft:titanium_hoe",
-    "dndcraft:mithril_hoe",
-    "dndcraft:adamantine_hoe"
+    "#dndcraft:mod_tools_hoes"
   ]
 }

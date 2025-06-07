@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "vanadium_ingot",
+  "key": {
+    "#": {
+      "item": "dndcraft:vanadium_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "dndcraft:vanadium_ingot"
+  }
+}

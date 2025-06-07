@@ -1,53 +1,74 @@
 package gm3w.dndcraft.item;
 
 import gm3w.dndcraft.DnDcraft;
+import gm3w.dndcraft.ModTags;
+import gm3w.dndcraft.sound.ModSoundEvents;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
-import java.util.Arrays;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-
-
-    WOOD("Wood", 5, new int[]{1, 2, 2, 1}, 15, SoundEvents.ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+    WOOD("wood", 4, new int[]{1, 1, 2, 1}, 7, ModSoundEvents.ARMOR_EQUIP_WOOD.get(), 0, 0, () -> {
         return Ingredient.of(ItemTags.LOGS);
     }),
-    LEATHER("leather", 5, new int[]{2, 3, 3, 2}, 15, SoundEvents.ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
-        return Ingredient.of(Items.LEATHER);
+    COPPER_CHAIN("copper_chainmail", 9, new int[]{1, 2, 3, 2}, 19, ModSoundEvents.ARMOR_EQUIP_COPPER_CHAIN.get(), 0, 0, () -> {
+        return Ingredient.of(ModItems.COPPER_CHAINMAIL_PLATE.get());
     }),
-    COPPER_CHAIN("copper_chainmail", 15, new int[]{2, 3, 4, 2}, 12, SoundEvents.ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
+    GOLD_CHAIN("golden_chainmail", 7, new int[]{1, 2, 3, 2}, 27, ModSoundEvents.ARMOR_EQUIP_GOLD_CHAIN.get(), 0, 0, () -> {
+        return Ingredient.of(ModItems.GOLD_CHAINMAIL_PLATE.get());
+    }),
+    COPPER("copper", 9, new int[]{2, 3, 4, 3}, 17, ModSoundEvents.ARMOR_EQUIP_COPPER.get(), 0, 0, () -> {
         return Ingredient.of(Items.COPPER_INGOT);
     }),
-    COPPER("copper", 15, new int[]{3, 4, 5, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
-        return Ingredient.of(Items.COPPER_INGOT);
+    SILVER_CHAIN("silver_chainmail", 14, new int[]{2, 3, 4, 3}, 26, ModSoundEvents.ARMOR_EQUIP_SILVER_CHAIN.get(), 0, 0, () -> {
+        return Ingredient.of(ModItems.SILVER_CHAINMAIL_PLATE.get());
     }),
-    CHAIN("chainmail", 15, new int[]{1, 4, 5, 2}, 12, SoundEvents.ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
-        return Ingredient.of(Items.IRON_INGOT);
+    SILVER("silver", 14, new int[]{3, 4, 5, 4}, 23, ModSoundEvents.ARMOR_EQUIP_SILVER.get(), 0, 0, () -> {
+        return Ingredient.of(ModItems.SILVER_INGOT.get());
     }),
-    IRON("iron", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
-        return Ingredient.of(Items.IRON_INGOT);
+//    DINO("dino", 13, new int[] {3, 4, 5, 4}, 13, ModSoundEvents.ARMOR_EQUIP_DINO.get(), 0, 0, () -> {
+//        return Ingredient.of(ModItems.DINOSAUR_HIDE.get());
+//    }),
+    TITANIUM_CHAIN("titanium_chainmail", 23, new int[]{4, 5, 6, 5}, 11, ModSoundEvents.ARMOR_EQUIP_TITANIUM_CHAIN.get(), 0, 0, () -> {
+        return Ingredient.of(ModItems.TITANIUM_CHAINMAIL_PLATE.get());
     }),
-    GOLD("gold", 7, new int[]{1, 3, 5, 2}, 25, SoundEvents.ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> {
-        return Ingredient.of(Items.GOLD_INGOT);
+    TITANIUM("titanium", 23, new int[]{5, 7, 7, 6}, 8, ModSoundEvents.ARMOR_EQUIP_TITANIUM.get(), 0, 0, () -> {
+        return Ingredient.of(ModItems.TITANIUM_INGOT.get());
     }),
-    DIAMOND("diamond", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
-        return Ingredient.of(Items.DIAMOND);
+//    DWARVEN("dwarven", 26, new int[]{5, 7, 7, 6}, 20, ModSoundEvents.ARMOR_EQUIP_DWARVEN.get(), 0, 0, () -> {
+//        return Ingredient.of(ModTags.Items.NOTHING);
+//    }),
+    VANADIUM_CHAIN("vanadium_chainmail", 31, new int[]{5, 7, 7, 6}, 9, ModSoundEvents.ARMOR_EQUIP_VANADIUM_CHAIN.get(), 0, 0, () -> {
+        return Ingredient.of(ModItems.VANADIUM_CHAINMAIL_PLATE.get());
     }),
-    TURTLE("turtle", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ARMOR_EQUIP_TURTLE, 0.0F, 0.0F, () -> {
-        return Ingredient.of(Items.SCUTE);
+    VANADIUM("vanadium", 31, new int[]{6, 8, 9, 7}, 6, ModSoundEvents.ARMOR_EQUIP_VANADIUM.get(), 0, 0, () -> {
+        return Ingredient.of(ModItems.VANADIUM_INGOT.get());
     }),
-    NETHERITE("netherite", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
-        return Ingredient.of(Items.NETHERITE_INGOT);
+//    DRAGON("dragon", 34, new int[]{6, 8, 9, 7}, 0, ModSoundEvents.ARMOR_EQUIP_DRAGON.get(), 0, 0, () -> {
+//        return Ingredient.of(ModItems.DRAGON_HIDE.get());
+//    }),
+    MITHRIL_CHAIN("mithril_chainmail", 40, new int[]{6, 8, 9, 7}, 8, ModSoundEvents.ARMOR_EQUIP_MITHRIL_CHAIN.get(), 0, 0, () -> {
+        return Ingredient.of(ModItems.MITHRIL_CHAINMAIL_PLATE.get());
+    }),
+    MITHRIL("mithril", 40, new int[]{7, 10, 10, 8}, 5, ModSoundEvents.ARMOR_EQUIP_MITHRIL.get(), 0, 0, () -> {
+        return Ingredient.of(ModItems.MITHRIL_INGOT.get());
+    }),
+//    AZER("azer", 44, new int[]{7, 10, 10, 8}, 16, ModSoundEvents.ARMOR_EQUIP_AZER.get(), 0, 0, () -> {
+//        return Ingredient.of(ModTags.Items.NOTHING);
+//    }),
+    ADAMANTINE_CHAIN("adamantine_chainmail", 50, new int[]{7, 10, 10, 8}, 7, ModSoundEvents.ARMOR_EQUIP_ADAMANTINE_CHAIN.get(), 0, 0, () -> {
+        return Ingredient.of(ModItems.ADAMANTINE_CHAINMAIL_PLATE.get());
+    }),
+    ADAMANTINE("adamantine", 50, new int[]{8, 11, 12, 9}, 4, ModSoundEvents.ARMOR_EQUIP_ADAMANTINE.get(), 0, 0, () -> {
+        return Ingredient.of(ModItems.ADAMANTINE_INGOT.get());
     });
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
-    private final int totalHealth;
     private final String name;
     private final int durabilityMultiplier;
     private final int[] slotProtections;
@@ -61,7 +82,6 @@ public enum ModArmorMaterials implements ArmorMaterial {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.slotProtections = slotProtections;
-        this.totalHealth = Arrays.stream(slotProtections).sum();
         this.enchantmentValue = enchantmentValue;
         this.sound = sound;
         this.toughness = toughness;
@@ -71,7 +91,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     @Override
     public int getDurabilityForSlot(EquipmentSlot pSlot) {
-        return this.slotProtections[pSlot.getIndex()];
+        return HEALTH_PER_SLOT[pSlot.getIndex()] * this.durabilityMultiplier;
     }
 
     @Override

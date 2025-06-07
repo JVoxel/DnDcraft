@@ -15,12 +15,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.SILVER_ORE.get());
         simpleBlock(ModBlocks.DEEPSLATE_SILVER_ORE.get());
         simpleBlock(ModBlocks.TITANIUM_ORE.get());
-        simpleBlock(ModBlocks.DEEPSLATE_TITANIUM_ORE.get());
+        simpleBlock(ModBlocks.VANADIUM_ORE.get());
         simpleBlock(ModBlocks.MITHRIL_ORE.get());
         simpleBlock(ModBlocks.ADAMANT_ORE.get());
 
         simpleBlock(ModBlocks.SILVER_BLOCK.get());
         simpleBlock(ModBlocks.TITANIUM_BLOCK.get());
+        simpleBlock(ModBlocks.VANADIUM_BLOCK.get());
         simpleBlock(ModBlocks.MITHRIL_BLOCK.get());
         simpleBlock(ModBlocks.ADAMANTINE_BLOCK.get());
     }
