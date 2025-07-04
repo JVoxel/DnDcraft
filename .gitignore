@@ -1,25 +1,33 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
-.project
+# Gradle files
+.gradle/
+build/
 
-# idea
-out
-*.ipr
-*.iws
+# IDE config
+.idea/
 *.iml
-.idea
+*.iws
+.vscode/
 
-# gradle
-build
-.gradle
+# Logs and run data
+logs/
+run/
+run-client/
+run-server/
+run-data/
+debug/
 
-# other
-eclipse
-run
+# OS files
+.DS_Store
+Thumbs.db
 
-# Files from Forge MDK
-forge*changelog.txt
+# User/environment-specific
+*.swp
+*.bak
+*.tmp
+
+# IntelliJ cache
+out/
+
+# Minecraft-specific cache
+eclipse/
+bin/

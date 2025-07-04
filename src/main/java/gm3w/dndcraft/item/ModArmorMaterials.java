@@ -13,7 +13,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    WOOD("wood", 4, new int[]{1, 1, 2, 1}, 7, ModSoundEvents.ARMOR_EQUIP_WOOD.get(), 0, 0, () -> {
+    WOOD("wooden", 4, new int[]{1, 1, 2, 1}, 7, ModSoundEvents.ARMOR_EQUIP_WOOD.get(), 0, 0, () -> {
         return Ingredient.of(ItemTags.LOGS);
     }),
     COPPER_CHAIN("copper_chainmail", 9, new int[]{1, 2, 3, 2}, 19, ModSoundEvents.ARMOR_EQUIP_COPPER_CHAIN.get(), 0, 0, () -> {
